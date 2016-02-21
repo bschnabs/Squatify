@@ -194,3 +194,11 @@ FakesAssemblies/
 
 # Visual Studio 6 workspace options file
 *.opt
+
+# Remove typings
+server/typings/*
+client/typings/*
+
+# Remove compiled js files
+server/*.js
+
