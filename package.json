@@ -1,0 +1,45 @@
+{
+  "name": "squatify",
+  "version": "1.0.0",
+  "description": "A linear progression exercise platform.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/OnlyAGhost/Squatify.git"
+  },
+  "author": "Brian Ellis, Robert Schnable",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/OnlyAGhost/Squatify/issues"
+  },
+  "homepage": "https://github.com/OnlyAGhost/Squatify#readme",
+  "dependencies": {
+      "angular2": "*",
+      "es6-promise": "*",
+      "es6-shim": "*",
+      "express": "*",
+      "reflect-metadata": "*",
+      "rxjs": "*",
+      "systemjs": "*",
+      "zone.js": "*",
+      "traceur": "*",
+      "typescript": "*",
+      "less": "*",
+      "bootstrap": "*",
+      "jade": "*",
+      "jquery": "*"
+  },
+  "devDependencies": {
+      "del": "*",
+      "gulp": "*",
+      "gulp-concat": "*",
+      "gulp-install": "*",
+      "gulp-sourcemaps": "*",
+      "gulp-typescript": "*",
+      "typings": "*",
+      "run-sequence": "*"
+  }
+}

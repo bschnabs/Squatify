@@ -1,0 +1,19 @@
+doctype html
+html(lang="en")
+  head
+    title= "Hello World Test"
+    include ./includes/angular2.jade
+    include ./includes/bootstrap.jade
+  body
+    div.col-md-12
+      .row
+        include ./includes/navbar.jade
+      .row
+        .col-md-12
+          h1 Hello World
+          hello-world
+
+    #footer
+      .container
+          p(class="text-muted credit")
+              | Squatify created by Brian Ellis and Robert Schnable.
