@@ -8,6 +8,7 @@ var app = express();
 
 app.use('/node_modules', express.static(path.resolve(__dirname, '../node_modules')));
 app.use('/app', express.static(path.resolve(__dirname, '../client/app')));
+app.use('/css', express.static(path.resolve(__dirname, '../client/style/css')));
 
 app.set('view engine', 'jade');
 

@@ -204,3 +204,6 @@ server/*.js
 server/*.js.map
 client/**.js
 client/**.js.map
+
+# Remove compiled site css file
+client/style/css/*
