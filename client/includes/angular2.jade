@@ -1,0 +1,20 @@
+script(src='/node_modules/traceur/bin/traceur-runtime.js')
+script(src='/node_modules/angular2/bundles/angular2-polyfills.js')
+script(src='/node_modules/systemjs/dist/system.src.js')
+script(src='/node_modules/rxjs/bundles/Rx.js')
+script(src='/node_modules/angular2/bundles/angular2.dev.js')
+script(src='/node_modules/angular2/bundles/router.dev.js')
+
+script.
+  System.config({
+      transpiler: 'typescript',
+      typescriptOptions: {
+        emitDecoratorMetadata: true
+      },
+      map: {
+        typescript: '/node_modules/typescript/lib/typescript.js',
+      },
+      packages: {'app': {defaultExtension: 'ts'}}
+  });
+    System.import('app/app')
+          .then(null, console.error.bind(console));

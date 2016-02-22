@@ -15,28 +15,31 @@
   "bugs": {
     "url": "https://github.com/OnlyAGhost/Squatify/issues"
   },
-  "homepage": "https://github.com/OnlyAGhost/Squatify#readme", 
+  "homepage": "https://github.com/OnlyAGhost/Squatify#readme",
   "dependencies": {
-      "angular2": "*", 
-      "es6-promise": "*", 
+      "angular2": "*",
+      "es6-promise": "*",
       "es6-shim": "*",
-      "express": "*", 
-      "reflect-metadata": "*", 
-      "rxjs": "*", 
-      "systemjs": "*", 
-      "zone.js": "*", 
-      "traceur": "*", 
-      "typescript": "*", 
-      "less": "*"
-  }, 
+      "express": "*",
+      "reflect-metadata": "*",
+      "rxjs": "*",
+      "systemjs": "*",
+      "zone.js": "*",
+      "traceur": "*",
+      "typescript": "*",
+      "less": "*",
+      "bootstrap": "*",
+      "jade": "*",
+      "jquery": "*"
+  },
   "devDependencies": {
-      "del": "*", 
-      "gulp": "*", 
-      "gulp-concat": "*", 
-      "gulp-install": "*", 
-      "gulp-sourcemaps": "*", 
-      "gulp-typescript": "*", 
-      "typings": "*",  
-      "run-sequence": "*" 
+      "del": "*",
+      "gulp": "*",
+      "gulp-concat": "*",
+      "gulp-install": "*",
+      "gulp-sourcemaps": "*",
+      "gulp-typescript": "*",
+      "typings": "*",
+      "run-sequence": "*"
   }
 }
